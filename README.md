@@ -9,6 +9,7 @@ Code repo for manuscript https://arxiv.org/abs/2008.01843
   1. `Pyramid.py`: Routines for generating a 3D array containing a discretely sampled pyramid.
   1. `skewedDetectorImage.py`: Script for generating the tilted detector schematic in Figure 3.
   1. `TiilePlot.py`: Custom routine for producing subplots in Matplotlib. First appears in the [Phaser](https://git.io/Jk5Ai) code base.
+  1. `aps.mplstyle`: My custom Matplotlib style file for APS journal submissions (Times font, etc.)
   
   Make sure the Jupyter notebook can see all these files when it is running.
   
