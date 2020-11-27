@@ -1,0 +1,44 @@
+# Matplotlib style file used for APS journals.
+# This file is to be placed in 
+# $HOME/.config/matplotlib/stylelib
+# and called in Python by: 
+#
+#	import matplotlib.pyplot as plt
+#	plt.style.use( 'aps' )
+#
+# After making changes to this file, the style can be reloaded by: 
+#
+# 	plt.style.reload_library()
+#
+#	Created by Siddharth Maddali
+#	April 2020
+
+font.family				: serif
+font.serif				: Times, Palatino, New Century Schoolbook, Bookman, Computer Modern Roman
+font.sans-serif			: Helvetica, Avant Garde, Computer Modern Sans serif
+font.cursive       		: Zapf Chancery
+font.weight				: bold
+font.monospace			: Courier, Computer Modern Typewriter
+
+text.usetex				: True
+#text.latex.preamble 	:      ## IMPROPER USE OF THIS FEATURE WILL LEAD TO LATEX FAILURES
+                            	## AND IS THEREFORE UNSUPPORTED. PLEASE DO NOT ASK FOR HELP
+                            	## IF THIS FEATURE DOES NOT DO WHAT YOU EXPECT IT TO.
+	                            ## preamble is a comma separated list of LaTeX statements
+	                            ## that are included in the LaTeX document preamble.
+	                            ## An example:
+	                            ## text.latex.preamble : \usepackage{bm},\usepackage{euler}
+	                            ## The following packages are always loaded with usetex, so
+	                            ## beware of package collisions: color, geometry, graphicx,
+	                            ## type1cm, textcomp. Adobe Postscript (PSSNFS) font packages
+	                            ## may also be loaded, depending on your font settings
+
+#axes.titlesize : 24
+axes.labelsize 		: 20
+
+lines.linewidth 	: 1.5
+lines.markersize 	: 10
+lines.antialiased	: True
+
+xtick.labelsize 	: 20
+ytick.labelsize 	: 20
