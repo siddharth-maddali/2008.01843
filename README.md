@@ -1,5 +1,7 @@
 # arxiv_2008.01843
 Code repo for manuscript https://arxiv.org/abs/2008.01843
+<a href="https://doi.org/10.5281/zenodo.4316395"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4316395.svg" alt="DOI"></a>
+
 
 ## Files
 
